@@ -1,0 +1,8 @@
+.body_main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.app{
+    background-color: #f1f2f5;
+}

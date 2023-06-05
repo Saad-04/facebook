@@ -1,0 +1,81 @@
+.message_sender {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 15px;
+    margin-top: 30px;
+    width: 93%;
+    box-shadow: 0 5px 7px -7px rgba(0, 0, 0, 0.75);
+}
+
+.messagesender_top form {
+    display: flex;
+  
+}
+.messagesender_top form button:hover{background-color:#086af4d9;}
+.messagesender_top form button{
+    padding:1px 7px;
+    border-radius: 999px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    background-color: #2e81f4d9;
+  
+}
+
+.messagesender_top form input {
+    padding: 8px 20px;
+    margin: 0px 5px;
+    width: 192px;
+    outline: none;
+    
+    font-weight: bold;
+    background-color: #eff2f5;
+    border-radius: 999px;
+    border: none;
+}
+
+.messagesender_top {
+    display: flex;
+    border-bottom: 1px solid #eff2f5;
+    flex-direction: row;
+    /* justify-content: center; */
+    padding: 15px ;
+    align-items: center;
+}
+
+.messagesender_bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    margin: 5px;
+    color: grey;
+}
+
+.messagesender_option {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+.messagesender_top button{
+    display: hidden;
+}
+@media (max-width:1200px){
+    .messagesender_top button{
+        display: visible;
+    }
+}.messagesender_option h3{
+    font-size: medium;
+    font-weight: light;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.messagesender_option:hover{
+  background-color: #eff2f5;
+  border-radius: 20px;
+}
